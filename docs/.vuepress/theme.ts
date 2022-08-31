@@ -9,13 +9,13 @@ export default hopeTheme({
   hostname: "https://newzone.top",
 
   author: {
-    name: "清顺",
+    name: "ZhikunHan",
     url: "https://newzone.top",
   },
 
   iconAssets: "iconfont",
   logo: "/logo.svg",
-  
+
   //是否全局启用路径导航
   breadcrumb: false,
 
@@ -47,9 +47,9 @@ export default hopeTheme({
   navbar: navbar,
   //导航栏布局
   navbarLayout: {
-	left: ["Brand"],
-	center: ["Links"],
-	right: ["Repo", "Outlook", "Search"],
+    left: ["Brand"],
+    center: ["Links"],
+    right: ["Repo", "Outlook", "Search"],
   },
   //是否在向下滚动时自动隐藏导航栏
   //navbarAutoHide: "always",
